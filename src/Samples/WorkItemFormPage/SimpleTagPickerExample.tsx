@@ -20,7 +20,7 @@ export const SimpleTagPickerExample: React.FunctionComponent<ComponentProps> = (
   const convertItemToPill = (tag: WorkItemField) => {
     return {
       content: tag.name,
-      onClick: () => alert(`Clicked tag "${tag.name}"`)
+      onClick: () => {}
     };
   };
 
@@ -37,6 +37,7 @@ export const SimpleTagPickerExample: React.FunctionComponent<ComponentProps> = (
 
   const onTagRemoved = (tag: WorkItemField) => {
     setTagItems(tagItems.value.filter(x => x.referenceName !== tag.referenceName));
+    setDataSelected(tagItems.value)
   };
 
   const renderSuggestionItem = (tag: ISuggestionItemProps<WorkItemField>) => {
