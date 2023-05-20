@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
-    "id": "testlinoo",
+    "id": "devsinghclosiongtag",
     "publisher": "Linoo",
-    "version": "1.0.9",
-    "name": "Test Lino'o",
+    "version": "1.0.15",
+    "name": "DEV_SIGNH Closing Tab",
     "description": "Azure DevOps Extension",
     "categories": [
         "Azure Repos",
