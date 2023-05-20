@@ -1,0 +1,19 @@
+{
+    "contributions": [
+        {  
+        "id": "sample-work-item-form-page",
+            "type": "ms.vss-work-web.work-item-form-page",
+            "description": "Custom work item form page",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "My Page",
+                "uri": "dist/WorkItemFormPage/index.html"
+            } 
+        }
+    ],
+    "scopes": [
+        "vso.work"
+    ]
+}
