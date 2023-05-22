@@ -1,4 +1,4 @@
-export interface field {
-  id: number;
-  text: string;
+export interface FieldTag {
+  id: string;
+  name: string;
 }
